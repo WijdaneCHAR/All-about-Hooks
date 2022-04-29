@@ -1,10 +1,9 @@
 import './App.css';
-import UseContext from './Components/UseContext';
 
 function App() {
   return (
     <div className="App">
-      <UseContext></UseContext>
+    Render any Component you want to try 
     </div>
   );
 }

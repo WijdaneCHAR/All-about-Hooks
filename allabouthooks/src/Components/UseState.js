@@ -18,7 +18,6 @@ export default function UseState() {
     <div>
         <h1 style={{color: h1Color}} > REACT USESTATE HOOK : </h1>
         <button style={buttonStyle}  onClick={() => {setButtonColor(bgColor) ; setBgColor(buttonColor)}}> Click Here</button>
-      
     </div>
   );
 }
