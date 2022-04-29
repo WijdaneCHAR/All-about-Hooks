@@ -1,10 +1,10 @@
 import './App.css';
-import UseEffect from './Components/UseEffect';
+import UseContext from './Components/UseContext';
 
 function App() {
   return (
     <div className="App">
-      <UseEffect></UseEffect>
+      <UseContext></UseContext>
     </div>
   );
 }
