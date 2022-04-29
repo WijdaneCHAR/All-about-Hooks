@@ -1,13 +1,14 @@
 import {React , useReducer} from 'react'
 
 export default function UseReducer() {
+  //DECLARING OUR INITIAL STATES OF THE VARIABLES :
     const initialState = 
         {
           bgcolor: "#007EB2",
           buttoncolor: "#f6f6f6"
         }
     ;
-
+  // REDUCER FUNCTION :
     const reducer = (state, action) => {
         switch (action.type) {
           case "first":

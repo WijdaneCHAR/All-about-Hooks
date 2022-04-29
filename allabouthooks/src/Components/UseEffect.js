@@ -21,7 +21,7 @@ export default function UseEffect() {
     },[buttonColor])
   return (
     <div>
-        <h1 style={{color: h1Color}} > REACT USEFFECT HOOK : </h1>
+        <h1 style={{color: h1Color}} > REACT USEEFFECT HOOK : </h1>
         <button style={buttonStyle}  onClick={() => {setButtonColor(bgColor) ; setBgColor(buttonColor)}}> Click Here</button>
       
     </div>
